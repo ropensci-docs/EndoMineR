@@ -1,0 +1,12 @@
+{
+  "commit": {
+    "commit": "c7d27652d868c00cf7299434f544a1276dcffe1e",
+    "author": "Gastroenterology Data Science <sebastiz@users.noreply.github.com>",
+    "time": "2021-01-18 16:21:23",
+    "files": 4,
+    "merge": true,
+    "message": "Merge pull request #45 from sebastiz/master\n\nupdated documentation"
+  },
+  "remote": "https://github.com/ropensci/EndoMineR",
+  "pkg": "EndoMineR"
+}
