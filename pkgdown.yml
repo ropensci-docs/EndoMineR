@@ -1,0 +1,14 @@
+pandoc: 2.16.2
+pkgdown: 2.0.7
+pkgdown_sha: ~
+articles:
+  Analysis: Analysis.html
+  Barretts: Barretts.html
+  Data: Data.html
+  EndoMineR: EndoMineR.html
+  Polyps: Polyps.html
+last_built: 2024-03-04T07:04Z
+urls:
+  reference: https://docs.ropensci.org/EndoMineR/reference
+  article: https://docs.ropensci.org/EndoMineR/articles
+

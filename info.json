@@ -1,0 +1,12 @@
+{
+  "commit": {
+    "commit": "6d63f07bfb539cd5545ed4a48092ab592a7a9279",
+    "author": "sebastiz@hotmail.com <sebastiz@hotmail.com>",
+    "time": "2023-03-08 07:01:31",
+    "files": 0,
+    "merge": true,
+    "message": "Merge branch 'master' of https://github.com/ropensci/EndoMineR\n\nCleanup again.\n"
+  },
+  "repo": "https://github.com/ropensci/EndoMineR",
+  "pkg": "EndoMineR"
+}
