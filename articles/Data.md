@@ -1,0 +1,67 @@
+# Data
+
+\##Overview
+
+It is envisaged that different users will start at different points of
+their data preparation. THis section is intended to explain the fake
+data I have created so the type of data used for the examples can be
+better understood.
+
+There are several data files used. These are detailed below
+
+## Gastroscopy
+
+#### Raw datasets:
+
+\#####TheOGDReportFinal A dataset containing fake upper GI endoscopy
+reports. The report field is provided as a whole report without any
+fields having been already extracted. There are 2000 rows
+
+\#####PathDataFrameFinal A dataset containing fake upper GI pathology
+reports. The report field is provided as a whole report without any
+fields having been already extracted. There are 2000 rows
+
+\####Pre-extracted datasets:
+
+\#####Myendo This has been extracted using the Extractor method as
+follows from the raw text within Mypath:
+
+``` r
+
+mywords <- c("OGDReportWhole","HospitalNumber","PatientName",
+             "GeneralPractitioner","Dateofprocedure","Endoscopist",
+             "Secondendoscopist","Medications","Instrument","ExtentofExam",
+             "Indications","ProcedurePerformed","Findings")
+Extractor(TheOGDReportFinal,"OGDReportWhole",mywords)
+```
+
+\####Mypath
+
+This has been extracted using the Extractor method as follows from the
+raw text within Mypath:
+
+``` r
+
+mywords<-c("HospitalNumber","PatientName","DOB","GeneralPractitioner",
+           "Dateofprocedure","ClinicalDetails","Macroscopicdescription",
+           "Histology","Diagnosis")
+Extractor(PathDataFrameFinal,"PathReportWhole",mywords)
+```
+
+The original dataset has also been added as “PathReportWhole”,
+
+\##Colonoscopy
+
+\###Raw datasets
+
+\####ColonFinal
+
+A dataset containing fake lower GI endoscopy reports. The report field
+is provided as a whole report without any fields having been already
+extracted. There are 2000 rows
+
+\####PathDataFrameFinalColon
+
+A dataset containing fake lower GI pathology reports. The report field
+is provided as a whole report without any fields having been already
+extracted. There are 2000 rows.

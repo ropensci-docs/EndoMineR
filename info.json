@@ -1,0 +1,13 @@
+{
+  "commit": {
+    "commit": "2b3603a27687321e409a4a0fcf343ae2843ff889",
+    "author": "Maëlle Salmon <maelle.salmon@yahoo.se>",
+    "time": "2024-09-02T10:10:04Z",
+    "files": 1,
+    "merge": false,
+    "message": "docs: fix pkgdown navbar config for modern syntax (#89)\n\nsee https://pkgdown.r-lib.org/articles/customise.html#navbar-heading"
+  },
+  "repo": "https://github.com/ropensci/EndoMineR",
+  "pkg": "EndoMineR",
+  "time": "2026-08-30T08:18:28Z"
+}
